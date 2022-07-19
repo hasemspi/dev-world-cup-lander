@@ -82,3 +82,28 @@ button.live_section{
     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 /* End header section style */
+
+.livesection{
+    width: 1321px;
+    margin: 0 auto;
+    margin-top: 6%;
+}
+.nav{
+    max-width: 25%;
+    background-color: black;
+    border-radius: 9px;
+}
+.nav ul {
+    text-align: center;
+    padding: 0px;
+}
+.nav ul li {
+list-style: none;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.livecontent{
+    max-width: 75%;
+}
