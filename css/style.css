@@ -128,7 +128,7 @@ button.live_section{
     margin-left: 20px;
     justify-content: space-around;
 }
-.blog1,.blog2,.blog3,.blog4,.blog5,.blog6,.blog7,.blog,.blog9{
+.blog1, .blog2, .blog3, .blog4, .blog5, .blog6, .blog7, .blog8, .blog9{
     border-radius: 10px;
     -webkit-box-shadow: 2px 9px 7px -11px rgba(26,22,26,1);
     -moz-box-shadow: 2px 9px 7px -11px rgba(26,22,26,1);
@@ -187,6 +187,7 @@ footer{
 }
 hr.new2 {
     border-top: 1px dashed red;
+    max-width: 1321px;
   }
 .secondfooter ul{
     list-style: none;
