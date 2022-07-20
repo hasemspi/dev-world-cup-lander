@@ -200,3 +200,32 @@ hr.new2 {
     font-size: 13px;
     padding-left: 42px;
 }
+/* website2 style area */
+.flog_sectin{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.thumnails1{
+width: 100%;
+}
+.vss{
+    padding: 16px;
+}
+.thumnails12{
+width: 100%;
+}
+.section_body1 h2{
+    text-align: center;
+    color: #585151;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.section_body1 p{
+    text-align: center;
+    color: #585151;
+    margin-top: 0px;
+    padding-bottom: 52px;
+}
