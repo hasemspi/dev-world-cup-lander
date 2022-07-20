@@ -82,31 +82,32 @@ button.live_section{
     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 /* End header section style */
-
+/* content and blog section style */
 .livesection{
     width: 1321px;
     margin: 0 auto;
     margin-top: 6%;
     display: flex;
-    height: 290px;
     justify-content: space-around;
 }
 .nav{
     max-width: 21%;
-    background-color: black;
     border-radius: 9px;
     padding: 1px;
 }
 .nav ul {
     text-align: center;
-    padding: 0px;
+    padding: 1px;
+    background-color: #000;
+    margin-top: 0px;
+    border-radius: 10px;
 }
 .nav ul li {
     list-style: none;
     background-color: #ffffff;
-    padding: 15px 38px;
+    padding: 13px 42px;
     border-radius: 10px;
-    margin: 30px;
+    margin: 20px;
 }
 .nav ul li a {
     text-decoration: none;
@@ -127,8 +128,11 @@ button.live_section{
     margin-left: 20px;
     justify-content: space-around;
 }
-.blog1{
-
+.blog1,.blog2,.blog3,.blog4,.blog5,.blog6,.blog7,.blog,.blog9{
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 9px 7px -11px rgba(26,22,26,1);
+    -moz-box-shadow: 2px 9px 7px -11px rgba(26,22,26,1);
+    box-shadow: 2px 9px 7px -11px rgba(26,22,26,1);
 }
 .box-section{
     border: 1px solid #ccc;
@@ -136,6 +140,19 @@ button.live_section{
 }
 .thumnails img{
     width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    -webkit-transition-duration: 1.5s;
+    transition-duration: 1.5s;
+}
+.thumnails img:hover, .thumnails img:focus, .thumnails img:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 .section_body{
     padding: 0px 5px 5px 13px;
@@ -145,10 +162,6 @@ button.live_section{
     padding: 4px 20px;
     border-radius: 5px;
     border: 1px solid #ccc;
-}
-
-.box_footer{
-
 }
 .clock_i{
     margin-right: 10%;
@@ -160,4 +173,29 @@ button.live_section{
 .clock_c .fa-regular{
     margin-right: 3%;
     color: #7a7575;
+}
+/* footer section style */
+footer{
+    background-color: #000;
+    margin-top: 120px;
+}
+.mainfooter h3{
+    text-align: center;
+    font-weight: 800;
+    font-size: 56px;
+    padding-top: 50px;
+}
+hr.new2 {
+    border-top: 1px dashed red;
+  }
+.secondfooter ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    padding-top: 24px;
+}
+.secondfooter ul li{
+    font-size: 13px;
+    padding-left: 42px;
 }
