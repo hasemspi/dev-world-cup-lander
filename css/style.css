@@ -193,7 +193,7 @@ hr.new2 {
     list-style: none;
     display: flex;
     justify-content: center;
-    padding-bottom: 80px;
+    padding-bottom: 13px;
     padding-top: 24px;
 }
 .secondfooter ul li{
@@ -229,6 +229,15 @@ width: 100%;
     margin-top: 0px;
     padding-bottom: 52px;
 }
+.social_icon{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.social_icon,.fa-brands{
+    padding-right: 12px;
+    cursor: pointer;
+}
 
 /* responsive style area */
 /* Smartphones (portrait and landscape) ----------- */
@@ -236,13 +245,17 @@ width: 100%;
     #banner_section {
         width: 100%;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .banner_text {
         max-width: 100%;
     }
     .banner_img {
         max-width: 100%;
+    }
+    .banner_img img {
+        width: 91%;
+        margin-top: 27px;
     }
     .banner_text h1 {font-size: 29px;
         text-align: center;
@@ -294,6 +307,9 @@ width: 100%;
     }
     footer {
         margin-top: 50px;
+    }
+    .social_icon, .fa-brands {
+        margin-left: 26px;
     }
     }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
